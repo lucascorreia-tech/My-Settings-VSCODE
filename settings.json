@@ -1,0 +1,58 @@
+{
+    "chat.editor.symbols.enabled": false,           
+    "github.copilot.editor.enableAutoCompletions": true, 
+    "window.commandCenter": false,                  
+    "github.copilot.chat.welcomeMessage.enabled": false, 
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Min Dark",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "redhat.telemetry.enabled": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "explorer.confirmDelete": false,
+
+    "editor.wordWrap": "wordWrapColumn", 
+    "editor.wordWrapColumn": 110,
+    "editor.wrappingIndent": "indent",
+    "editor.rulers": [110],
+    "prettier.printWidth": 110,             
+    "prettier.trailingComma": "all",
+    "editor.breadcrumbs.enabled": false,  
+
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    
+    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "tailwindCSS.emmetCompletions": true,
+
+    "errorLens.enabledDiagnosticLevels": ["error"], 
+    "errorLens.excludeBySource": ["cSpell", "eslint"],
+    "errorLens.margin": "2ch",
+    "errorLens.fontStyleItalic": true,
+
+    "workbench.activityBar.location": "bottom", 
+    "workbench.editor.showTabs": "multiple",       
+    "editor.minimap.enabled": false,               
+    "editor.scrollbar.vertical": "hidden",         
+    "editor.renderLineHighlight": "none",         
+    "editor.guides.indentation": false,           
+    "editor.folding": false,                       
+    "editor.lineNumbers": "on",                    
+    "workbench.statusBar.visible": false,
+    "editor.lightbulb.enabled": "off",             
+    "editor.overviewRulerBorder": false           
+}
