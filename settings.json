@@ -1,10 +1,9 @@
 {
-    "chat.editor.symbols.enabled": false,           
-    "github.copilot.editor.enableAutoCompletions": true, 
-    "window.commandCenter": false,                  
-    "github.copilot.chat.welcomeMessage.enabled": false, 
+    "chat.editor.symbols.enabled": false,          
+    "github.copilot.editor.enableAutoCompletions": false, 
+    "window.commandCenter": false,                     
+    "github.copilot.chat.welcomeMessage.enabled": false,
     "workbench.iconTheme": "symbols",
-    "workbench.colorTheme": "Min Dark",
     "files.autoSave": "afterDelay",
     "editor.fontSize": 18,
     "redhat.telemetry.enabled": true,
@@ -12,47 +11,52 @@
     "workbench.navigationControl.enabled": false,
     "workbench.layoutControl.enabled": false,
     "chat.commandCenter.enabled": false,
-    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.secondarySideBar.defaultVisibility": "visible",
     "explorer.confirmDelete": false,
-
     "editor.wordWrap": "wordWrapColumn", 
     "editor.wordWrapColumn": 110,
     "editor.wrappingIndent": "indent",
     "editor.rulers": [110],
-    "prettier.printWidth": 110,             
+    "prettier.printWidth": 110,              
     "prettier.trailingComma": "all",
     "editor.breadcrumbs.enabled": false,  
-
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    
-    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-    "files.associations": {
-        "*.css": "tailwindcss"
+    "[javascript]": { 
+        "editor.defaultFormatter": "esbenp.prettier-vscode" 
+    },
+    "[typescript]": { 
+        "editor.defaultFormatter": "esbenp.prettier-vscode" 
+    },
+    "[typescriptreact]": { 
+        "editor.defaultFormatter": "esbenp.prettier-vscode" 
+    },
+    "[csharp]": { 
+        "editor.defaultFormatter": "ms-dotnettools.csharp" 
     },
     "editor.quickSuggestions": {
         "strings": "on"
     },
-    "tailwindCSS.emmetCompletions": true,
-
     "errorLens.enabledDiagnosticLevels": ["error"], 
     "errorLens.excludeBySource": ["cSpell", "eslint"],
     "errorLens.margin": "2ch",
     "errorLens.fontStyleItalic": true,
-
     "workbench.activityBar.location": "bottom", 
-    "workbench.editor.showTabs": "multiple",       
-    "editor.minimap.enabled": false,               
+    "workbench.editor.showTabs": "multiple",              
+    "editor.minimap.enabled": false,                              
     "editor.scrollbar.vertical": "hidden",         
     "editor.renderLineHighlight": "none",         
-    "editor.guides.indentation": false,           
-    "editor.folding": false,                       
-    "editor.lineNumbers": "on",                    
+    "editor.guides.indentation": false,                     
+    "editor.folding": false,                                    
+    "editor.lineNumbers": "on",                            
     "workbench.statusBar.visible": false,
-    "editor.lightbulb.enabled": "off",             
-    "editor.overviewRulerBorder": false           
+    "editor.lightbulb.enabled": "off",                     
+    "editor.overviewRulerBorder": false,
+    "chat.viewSessions.enabled": false,
+    "chat.contextUsage.enabled": false,
+    "chat.agent.enabled": false,
+    "chat.checkpoints.enabled": false,
+    "debug.breakpointsView.presentation": "tree",
+    "editor.fontFamily": "JetBrains Mono",
+    "explorer.confirmDragAndDrop": false
 }
